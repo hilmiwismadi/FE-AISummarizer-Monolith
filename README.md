@@ -24,6 +24,7 @@ Frontend aplikasi web untuk AI Text Summarizer yang memungkinkan pengguna mendaf
 ## Struktur Folder Utama
 src/
 ├── components/
+
 │ ├── Header.jsx
 │ ├── Summarizer.jsx
 │ ├── History.jsx
