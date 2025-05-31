@@ -8,8 +8,6 @@ Frontend aplikasi web untuk AI Text Summarizer yang memungkinkan pengguna mendaf
 - **Autentikasi Pengguna**: Register, Login, Logout dengan proteksi halaman menggunakan context API.
 - **Ringkasan Teks Otomatis**: Input teks, pilih model AI, dan dapatkan ringkasan teks secara real-time.
 - **Riwayat Ringkasan**: Menampilkan daftar riwayat ringkasan yang pernah dibuat oleh pengguna.
-- **Loading Indicator** saat memproses ringkasan.
-- Responsive dan mudah digunakan.
 
 ---
 
@@ -24,3 +22,14 @@ Frontend aplikasi web untuk AI Text Summarizer yang memungkinkan pengguna mendaf
 ---
 
 ## Struktur Folder Utama
+src/
+├── components/
+│ ├── Header.jsx
+│ ├── Summarizer.jsx
+│ ├── History.jsx
+├── pages/
+│ ├── Login.jsx
+│ ├── Register.jsx
+├── AuthContext.jsx
+├── App.jsx
+├── index.jsx
