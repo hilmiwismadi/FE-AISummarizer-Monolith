@@ -1,12 +1,26 @@
-# React + Vite
+# AI Text Summarizer Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend aplikasi web untuk AI Text Summarizer yang memungkinkan pengguna mendaftarkan akun, login, dan membuat ringkasan teks menggunakan model AI dari OpenRouter.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur Utama
+- **Autentikasi Pengguna**: Register, Login, Logout dengan proteksi halaman menggunakan context API.
+- **Ringkasan Teks Otomatis**: Input teks, pilih model AI, dan dapatkan ringkasan teks secara real-time.
+- **Riwayat Ringkasan**: Menampilkan daftar riwayat ringkasan yang pernah dibuat oleh pengguna.
+- **Loading Indicator** saat memproses ringkasan.
+- Responsive dan mudah digunakan.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Teknologi yang Digunakan
+- React.js dengan Hooks (`useState`, `useEffect`)
+- React Router DOM untuk routing halaman
+- Context API untuk manajemen autentikasi (`AuthContext`)
+- Fetch API untuk komunikasi backend dan API eksternal
+- Tailwind CSS untuk styling komponen
+- React Markdown untuk render hasil ringkasan dengan format Markdown
+
+---
+
+## Struktur Folder Utama
